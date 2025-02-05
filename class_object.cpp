@@ -13,7 +13,7 @@ class student{
     void getdata(){
         cout<<"enter the name :"<<endl;
         getline(cin,name);
-        cout<<"enter the address :"<<endl;
+        cout<<"enter the address first district space then name of municipality :"<<endl;
         getline(cin,address);
         cout<<"enter the ward no :"<<endl;
         cin>>wardno;
@@ -21,7 +21,7 @@ class student{
     void showdata(){
         srand(time(0));
         citizenship_number=(rand()); 
-        cout<<name<<"\n"<<address<<"\n"<<wardno<<"\n"<<citizenship_number;
+        cout<<"The name of the person is "<<name<<"\n"<<"The person is from"<<address<<"\n"<<"From the ward"<<wardno<<"\n"<<"The citizenship is "<<citizenship_number;
     }
 
 };
