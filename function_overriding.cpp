@@ -5,7 +5,7 @@ class base{
     virtual void print(){
     cout<<"print base class"<<endl;
     }
-    virtual void show(){
+     void show(){
         cout<<"show base class "<<endl;
     }
 };
