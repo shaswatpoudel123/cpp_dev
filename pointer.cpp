@@ -21,13 +21,13 @@ class student{
  void showdata(){
     cout<<"The name is "<<name;
     cout<<"The rollno is "<<rollno;
-    cout<<"The marsks is "<<marks;
+    cout<<"The marks is "<<marks;
 }
 };
 int main(){
-    student S;
-    S.getdata();
-    student *s=&S;
+    student st;
+    st.getdata();
+    student *s=&st;
     s->showdata();
     return 0;
 }
