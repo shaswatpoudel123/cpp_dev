@@ -13,15 +13,15 @@ void test(int x){
     }
     catch(int i)
     {
-        cout<<"Caught  no is > 1"<<endl;
+        cout<<"Caught  exception in > 1"<<endl;
     }
     catch(char ch)
     {
-        cout<<"Caught  no is 0 "<<endl;
+        cout<<"Caught exceotion  in 0 "<<endl;
     }
     catch(double i)
     {
-        cout<<"Caught no is less than 0 "<<endl;
+        cout<<"Caught exception in < 0 "<<endl;
     }
 /*for catching all the excetionsat once we can use
     catch(...)

@@ -20,7 +20,7 @@ void divide(double x,double y)
 int main(){
     try{
         divide(1.12,1.33);
-        divide(6,2);
+        divide(6,0);
     }
     catch(double){
         cout<<"\nexception inside main function";
