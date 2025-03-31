@@ -5,7 +5,7 @@ assumptions]*/
 using namespace std;
 class iteam{
     int number;
-    static int count;
+    static int count;//static data type
     public:
     void getdata(int a){
         number=a;
@@ -14,7 +14,7 @@ class iteam{
     void getcount(){
         cout<<"\n valaue of count : "<<count;
     }
-    static void getscount(){
+    static void getscount(){//member fuction
         cout<<"value of count: "<<count;
     }
 };
@@ -24,7 +24,7 @@ int main(){
 a.getdata(100);
 cout<<"\t";
 a.getcount();
-iteam::getscount();
+iteam::getscount();//static member function
 b.getdata(200);
 cout<<"\t";
 a.getcount();
@@ -35,7 +35,3 @@ cout<<"\t";
 iteam::getscount();
 return 0;
 } 
-
-
-
-
